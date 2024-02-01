@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 44px;
+    width: 100vw;
+    background-color: #161617cc;
+    padding-inline: 120px;
+}
+
+body {
+}
+
+.maincontainer {
+    background-image: url(apple-vision-pro__cctkg4nhnb7m_og.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.nav-img {
+    width: 23px;
+}
+
+div.navitem {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 200;
+}
+
+.navicon {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.856);
+    height: 44px;
+}
+
+.img-fluid {
+    border-top: 2px solid black;
+    margin-block: 20px;
+    height: 700px;
+    width: 100vw;
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 10px;
+    color: white;
+    height: 100vh;
+
+}
+
+div.grid-item1 {
+    background-image: url(152.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    grid-column: 1/6;
+    grid-row: 1/7;
+    background-color: red;
+}
+
+div.grid-item2 {
+    background-image: url(card2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    grid-row: 1/7;
+    grid-column: 6/11;
+}
+div.grid-item3{
+    background-image: url(vision9.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    grid-row: 7/13;
+    grid-column: 1/6;
+}
+div.grid-item4{
+    background-image: url(ultra\ 2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    grid-row: 7/13;
+    grid-column: 6/11;
+}
+div.lastcontianer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:40px;
+    background-color:#161617cc ;
+    padding-inline: 120px;
+}
